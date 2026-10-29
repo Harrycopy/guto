@@ -255,3 +255,6 @@ footer .row { display: flex; flex-wrap: wrap; justify-content: space-between; ga
 @media (prefers-reduced-motion: reduce) {
   .pole::before, .marquee-track, body::after, .scroll-cue i::after { animation: none; }
 }
+
+/* máscara das linhas do SplitText sem cortar acento */
+.split > div { padding-top: .18em; margin-top: -.18em; padding-bottom: .04em; margin-bottom: -.04em; }
